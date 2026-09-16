@@ -131,3 +131,5 @@
   background: var(--c-violet);
   color: var(--c-white);
 }
+
+#slidev-goto-dialog { display: none !important; }
