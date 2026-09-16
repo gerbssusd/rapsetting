@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1150" height="800" viewBox="0 0 1150 800">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1B4332"/>
+    </marker>
+    <marker id="arrowViolet" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6B2D5C"/>
+    </marker>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0E2A20" flood-opacity="0.18"/>
+    </filter>
+    <radialGradient id="dread" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#6B2D5C" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#6B2D5C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBF9F3"/>
+      <stop offset="100%" stop-color="#F4EFE1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1150" height="800" fill="url(#bgWash)"/>
+<text x="575" y="54" font-family="Liberation Serif, Georgia, 'Times New Roman', serif" font-size="27" font-weight="700" font-style="normal" fill="#0E2A20" text-anchor="middle" letter-spacing="0">Schema of Verisimilitude</text><text x="575" y="82" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#5C8374" text-anchor="middle" letter-spacing="0">adapted from Ribó, Fig. 3.8 (p. 44) · CC BY 4.0</text><line x1="180" y1="150" x2="180" y2="670" stroke="#1B4332" stroke-width="2.5"/><line x1="180" y1="410" x2="940" y2="410" stroke="#1B4332" stroke-width="2.5"/><text x="156" y="136" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#0E2A20" text-anchor="start" letter-spacing="0">VERISIMILAR</text><text x="156" y="700" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#0E2A20" text-anchor="start" letter-spacing="0">NON-VERISIMILAR</text><text x="160" y="396" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#0E2A20" text-anchor="end" letter-spacing="0">FICTION</text><text x="960" y="396" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="15" font-weight="700" font-style="normal" fill="#0E2A20" text-anchor="start" letter-spacing="0">NONFICTION</text><text x="370" y="210" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5C8374" text-anchor="middle"><tspan x="370" dy="0">realist novels</tspan></text><text x="750" y="210" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5C8374" text-anchor="middle"><tspan x="750" dy="0">reportage</tspan></text><text x="370" y="640" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5C8374" text-anchor="middle"><tspan x="370" dy="0">fantasy, fable</tspan></text><text x="750" y="640" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="13" font-weight="400" fill="#5C8374" text-anchor="middle"><tspan x="750" dy="0">an unbelievable</tspan><tspan x="750" dy="20">“true story”</tspan></text><circle cx="408" cy="306" r="14" fill="#6B2D5C" stroke="#FBF9F3" stroke-width="3" filter="url(#softShadow)"/><text x="408" y="276" font-family="Liberation Serif, Georgia, 'Times New Roman', serif" font-size="15" font-weight="700" fill="#4A1E40" text-anchor="middle"><tspan x="408" dy="0">“Rappaccini’s Daughter”</tspan></text><text x="408" y="352" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="12.5" font-weight="400" fill="#1B2B22" text-anchor="middle"><tspan x="408" dy="0">fantastic premise, made</tspan><tspan x="408" dy="16">verisimilar by dense</tspan><tspan x="408" dy="16">description + the “M. de</tspan><tspan x="408" dy="16">l’Aubépine” translator frame</tspan></text><text x="575" y="760" font-family="Liberation Serif, Georgia, 'Times New Roman', serif" font-size="15" font-weight="400" fill="#1B2B22" text-anchor="middle"><tspan x="575" dy="0">Verisimilitude: narrative discourse’s attempt to make a storyworld feel like a</tspan><tspan x="575" dy="20">faithful imitation of the real one — true or not. Ribó 44.</tspan></text></svg>

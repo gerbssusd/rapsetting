@@ -1,0 +1,133 @@
+/* ==========================================================================
+   The Garden as Meaning-Machine — global theme
+   A botanical / herbarium palette keyed to the story: deep garden green,
+   a single toxic-violet accent (the purple shrub), aged gold rule-lines,
+   parchment and ivory grounds. No color bars or edge stripes — depth comes
+   from layered translucent panels and soft shadows instead.
+   ========================================================================== */
+
+:root {
+  --c-ink: #1b2b22;
+  --c-forest: #1b4332;
+  --c-forest-deep: #0e2a20;
+  --c-moss: #5c8374;
+  --c-parchment: #f4efe1;
+  --c-parchment-deep: #eae1c8;
+  --c-ivory: #fbf9f3;
+  --c-violet: #6b2d5c;
+  --c-violet-deep: #4a1e40;
+  --c-gold: #b08d57;
+  --c-white: #ffffff;
+
+  --font-serif: "Liberation Serif", Georgia, "Times New Roman", serif;
+  --font-sans: "Liberation Sans", Arial, Helvetica, sans-serif;
+}
+
+.slidev-layout {
+  font-family: var(--font-sans);
+  color: var(--c-ink);
+  background: var(--c-ivory);
+  background-image: radial-gradient(ellipse at 15% -10%, rgba(176, 141, 87, 0.08), transparent 45%),
+    radial-gradient(ellipse at 100% 110%, rgba(107, 45, 92, 0.06), transparent 50%);
+}
+
+.slidev-layout h1,
+.slidev-layout h2,
+.slidev-layout h3 {
+  font-family: var(--font-serif);
+  color: var(--c-forest-deep);
+  letter-spacing: 0.01em;
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--c-violet);
+  margin-bottom: 0.35rem;
+}
+
+.slide-title {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 2.15rem;
+  line-height: 1.18;
+  color: var(--c-forest-deep);
+  max-width: 92%;
+}
+
+.rule-hair {
+  height: 1px;
+  background: linear-gradient(90deg, var(--c-gold), transparent 70%);
+  opacity: 0.55;
+  margin: 0.9rem 0 1.3rem;
+  width: 100%;
+}
+
+.card {
+  background: var(--c-white);
+  border: 1px solid rgba(27, 67, 50, 0.16);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 4px 18px rgba(14, 42, 32, 0.06);
+}
+
+.card .head {
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--c-forest-deep);
+  margin-bottom: 0.3rem;
+}
+
+.card .head .num {
+  color: var(--c-violet);
+  margin-right: 0.4rem;
+}
+
+.card .body {
+  font-family: var(--font-serif);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  color: var(--c-ink);
+}
+
+.card .body em,
+.card .body i {
+  color: var(--c-violet-deep);
+}
+
+.citation {
+  font-family: var(--font-serif);
+  font-style: italic;
+  color: var(--c-moss);
+  font-size: 0.85rem;
+}
+
+.footer-credit {
+  position: absolute;
+  bottom: 0.55rem;
+  right: 1.1rem;
+  font-size: 0.65rem;
+  color: var(--c-moss);
+  font-family: var(--font-sans);
+  letter-spacing: 0.03em;
+  opacity: 0.75;
+}
+
+.leaf-motif {
+  position: absolute;
+  opacity: 0.55;
+  pointer-events: none;
+}
+
+/* Slidev nav / controls tinted to the palette rather than default blue */
+.slidev-controls-container,
+.slidev-nav-go-btn { color: var(--c-forest) !important; }
+
+::selection {
+  background: var(--c-violet);
+  color: var(--c-white);
+}

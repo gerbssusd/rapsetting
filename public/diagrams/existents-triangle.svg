@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="760" viewBox="0 0 1100 760">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#1B4332"/>
+    </marker>
+    <marker id="arrowViolet" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#6B2D5C"/>
+    </marker>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0E2A20" flood-opacity="0.18"/>
+    </filter>
+    <radialGradient id="dread" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#6B2D5C" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#6B2D5C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bgWash" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FBF9F3"/>
+      <stop offset="100%" stop-color="#F4EFE1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="760" fill="url(#bgWash)"/>
+<text x="550" y="54" font-family="Liberation Serif, Georgia, 'Times New Roman', serif" font-size="26" font-weight="700" font-style="normal" fill="#0E2A20" text-anchor="middle" letter-spacing="0">Relationships Between Existents in the Storyworld</text><text x="550" y="82" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="14" font-weight="400" font-style="italic" fill="#5C8374" text-anchor="middle" letter-spacing="0">adapted from Ribó, Fig. 3.1 (p. 33) · CC BY 4.0</text><ellipse cx="550" cy="430" rx="400" ry="260" fill="#FFFFFF" stroke="#1B4332" stroke-width="2.5" filter="url(#softShadow)"/><text x="550" y="420" font-family="Liberation Serif, Georgia, 'Times New Roman', serif" font-size="30" font-weight="700" font-style="normal" fill="#B08D57" text-anchor="middle" letter-spacing="0">storyworld</text><line x1="300" y1="560" x2="550" y2="240" stroke="#6B2D5C" stroke-width="2.5" marker-end="url(#arrowViolet)" marker-start="url(#arrowViolet)"/><line x1="800" y1="560" x2="550" y2="240" stroke="#6B2D5C" stroke-width="2.5" marker-end="url(#arrowViolet)" marker-start="url(#arrowViolet)"/><line x1="300" y1="560" x2="800" y2="560" stroke="#1B4332" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/><rect x="400" y="200" width="300" height="64" rx="32" fill="#6B2D5C" stroke="#4A1E40" stroke-width="2" filter="url(#softShadow)"/><text x="550" y="242" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="19" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" letter-spacing="0">ENVIRONMENTS</text><rect x="190" y="528" width="220" height="60" rx="30" fill="#1B4332" stroke="#0E2A20" stroke-width="2" filter="url(#softShadow)"/><text x="300" y="568" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="19" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" letter-spacing="0">EVENTS</text><rect x="670" y="528" width="260" height="60" rx="30" fill="#1B4332" stroke="#0E2A20" stroke-width="2" filter="url(#softShadow)"/><text x="800" y="568" font-family="Liberation Sans, Arial, Helvetica, sans-serif" font-size="19" font-weight="700" font-style="normal" fill="#FFFFFF" text-anchor="middle" letter-spacing="0">CHARACTERS</text><text x="550" y="700" font-family="Liberation Serif, Georgia, 'Times New Roman', serif" font-size="15.5" font-weight="400" fill="#1B2B22" text-anchor="middle"><tspan x="550" dy="0">Setting = the meaningful arrangement of environments, the spatial</tspan><tspan x="550" dy="21">existents — as fundamental to storyworlds as events (plot) and characters.</tspan><tspan x="550" dy="21">Ribó 33.</tspan></text></svg>

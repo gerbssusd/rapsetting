@@ -1,0 +1,25 @@
+{
+  "name": "rappaccini-setting-lecture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The Garden as Meaning-Machine — a Slidev lecture applying Ignasi Ribó's Prose Fiction (Ch. 1–3, focus Ch. 3 \"Setting\") to Hawthorne's \"Rappaccini's Daughter.\"",
+  "type": "module",
+  "scripts": {
+    "dev": "slidev slides.md --open",
+    "build": "slidev build slides.md --base /",
+    "export": "slidev export slides.md --format pdf --with-toc",
+    "export:notes": "slidev export slides.md --format pdf --notes",
+    "vercel-build": "slidev build slides.md --base /"
+  },
+  "dependencies": {
+    "@slidev/cli": "^51.7.1",
+    "@slidev/theme-default": "^0.25.0",
+    "vue": "^3.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.63.0"
+  }
+}
