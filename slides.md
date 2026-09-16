@@ -1,7 +1,7 @@
 ---
 theme: default
 title: "The Garden as Meaning-Machine"
-favicon: Maxfav.png
+favicon: "Maxfav.png"
 info: "A Narratological Reading of Setting in Hawthorne’s “Rappaccini’s Daughter”"
 class: text-left
 transition: fade
